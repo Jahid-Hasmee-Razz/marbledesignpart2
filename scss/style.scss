@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@400;700&display=swap');
+$nav-bg: #E4E4E4;
+$bg-body: #333;
+$active-link-color: #a0d2c6;
+$font-icon-size: 30px;
+
+body {
+    background: $bg-body;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    background: $nav-bg;
+
+    .container {
+        .navbar-brand {
+            color: #4E4E4E;
+            font-weight: 700;
+            font-size: 28px;
+            font-family: 'Roboto Condensed';
+        }
+
+        #navlist {
+
+            ul li a {
+                color: #333;
+                font-family: 'Roboto Condensed';
+                font-weight: 700;
+            }
+
+            ul li:hover a {
+                text-decoration: underline;
+            }
+
+
+        }
+
+    }
+}
+
+#home-section {
+    background: url('../img/home.jpg') no-repeat top center;
+    min-height: 400px;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+
+    .row {
+        padding: 130px 0;
+
+        .col-md-12 {
+            h1 {
+                font-size: 30px;
+                font-weight: 700;
+
+            }
+
+            h3 {
+                font-size: 22px;
+                font-weight: 700;
+                opacity: 0.5;
+            }
+
+            a {
+                font-family: 'Roboto', sans-serif;
+                margin-top: 25px;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
+
+#service-section {
+    h5 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h6 {
+
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .fas,
+    .far {
+        font-size: 50px;
+        padding: 5px;
+        width: 80px;
+        height: 62px;
+        color: #C9C8DC;
+        border-radius: 50%;
+        background: #9D9ABF;
+    }
+
+    hr {
+        border: 1px solid #E2E2E2;
+
+    }
+
+
+    .desc h4 {
+        font-size: 15px;
+        margin-top: 20px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+
+    }
+
+    .desc p {
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+
+    }
+
+    .desc .title {
+
+        font-size: 13px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        opacity: 0.5;
+
+    }
+}
